@@ -22,7 +22,7 @@ function getQuote() {
 function kanyeSound() {
   let kSound = document.getElementById("audio")
   kSound.play();
-  kSound.volume = 0.2;
+  kSound.volume = 0.15;
 }
 
 
