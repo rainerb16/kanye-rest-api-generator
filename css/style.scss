@@ -3,15 +3,12 @@
     padding: 0;
 }
 
-html {
-    background-color: #090808;
-}
 
 
 body {
     display: grid;
-    background-color: #090808;
-    color: #928b61;
+    background-color: lightgray;
+    color: #090808;
     justify-items: center;
     align-items: center;
     font-family: 'Gayathri', sans-serif;
@@ -69,7 +66,7 @@ body {
 
 
 #refresh {
-    border: 1px solid #d1ccb0;
+    border: 1px solid #090808;
     box-shadow: 2px 4px 3px #928b61;
     padding: 10px;
     align-items: center;
@@ -114,7 +111,7 @@ body {
 
 
   #refresh {
-      border: 1px solid #d1ccb0;
+      border: 1px solid #090808;
       box-shadow: 2px 4px 3px #928b61;
       padding: 10px;
       align-items: center;
@@ -134,7 +131,7 @@ body {
   }
 
   #quote-gen {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0vw;
   }
 
@@ -142,7 +139,7 @@ body {
       font-size: 20px;
       letter-spacing: 2px;
       text-align: center;
-      margin-top: 1.5vw;
+      margin: 3vw 0vw 1vw 0vw;
       width: 50%;
   }
 
@@ -159,7 +156,7 @@ body {
 
 
   #refresh {
-      border: 1px solid #d1ccb0;
+      border: 1px solid #090808;
       box-shadow: 2px 4px 3px #928b61;
       padding: 10px;
       align-items: center;
