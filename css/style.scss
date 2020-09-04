@@ -14,12 +14,16 @@ body {
 
 #title-text {
     margin: 5vw;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
 }
 
+#quote-gen {
+    font-size: 13px;
+}
+
 #kanye-quote {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-align: center;
     margin: 5vw;
@@ -29,6 +33,29 @@ body {
     width: 50%;
     margin: 10vw 0vw 5vw 0vw;
 }
+
+#kanye-head {
+  animation-name: kanye-head;
+	animation-duration: 0.8s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes kanye-head {
+	0% { transform: translate(2px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-4deg); }
+	20% { transform: translate(-3px, 0px) rotate(4deg); }
+	30% { transform: translate(0px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(4deg); }
+	50% { transform: translate(-1px, 2px) rotate(-4deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(2px, 1px) rotate(-4deg); }
+	80% { transform: translate(-1px, -1px) rotate(4deg); }
+	90% { transform: translate(2px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-4deg); }
+}
+
 
 #click {
     margin: 5vw;
@@ -50,23 +77,34 @@ body {
 //TABLET
 @media only screen and (min-width: 670px) {
   
+
+  #title-text {
+    margin: 5vw;
+    font-size: 45px;
+    text-align: center;
+  }
+
+
   #kanye-quote {
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: 2px;
     text-align: center;
     margin: 5vw;
   }
   
-  
+  #quote-gen {
+    font-size: 18px;
+  }
+
   #kanye-head {
     width: 50%;
-    margin: 10vw 0vw 0vw 0vw;
+    margin: 5vw 0vw 0vw 0vw;
   }
 
 
   #click {
     margin-bottom: 5vw;
-    font-size: 20px;
+    font-size: 24px;
   }
 
 
@@ -78,4 +116,50 @@ body {
       justify-items: center;
       cursor: pointer;
   }
+}
+
+
+/* DESKTOP */
+@media only screen and (min-width: 1020px) {
+
+  #title-text {
+      margin: 2vw;
+      font-size: 50px;
+      text-align: center;
+  }
+
+  #quote-gen {
+    font-size: 16px;
+    margin-bottom: 0vw;
+  }
+
+  #kanye-quote {
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-top: 1.5vw;
+      width: 50%;
+  }
+
+  #kanye-head {
+      width: 20%;
+      margin: 0vw 0vw 0vw 0vw;
+  }
+
+
+  #click {
+      margin: 1vw;
+      font-size: 22px;
+  }
+
+
+  #refresh {
+      border: 1px solid #d1ccb0;
+      box-shadow: 2px 4px 3px #928b61;
+      padding: 10px;
+      align-items: center;
+      justify-items: center;
+      cursor: pointer;
+  }
+
 }

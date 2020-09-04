@@ -17,5 +17,15 @@ function getQuote() {
 
 };
 
+
+// AUDIO
+function kanyeSound() {
+  let kSound = document.getElementById("audio")
+  kSound.play();
+  kSound.volume = 0.2;
+}
+
+
 // EVENT LISTENER
 document.getElementById("refresh").addEventListener("click", getQuote);
+document.getElementById("refresh").addEventListener("click", kanyeSound);
