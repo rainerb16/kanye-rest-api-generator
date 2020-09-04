@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    background-color: #090808;
+    color: #928b61;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Gayathri', sans-serif;
+}
+
+#title-text {
+    margin: 5vw;
+    font-size: 36px;
+    text-align: center;
+}
+
+#kanye-quote {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 5vw;
+}
+
+#kanye-head {
+    width: 50%;
+    margin: 10vw 0vw 5vw 0vw;
+}
+
+#click {
+    margin: 5vw;
+    font-size: 16px;
+}
+
+
+#refresh {
+    border: 1px solid #d1ccb0;
+    box-shadow: 2px 4px 3px #928b61;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+
+
+//TABLET
+@media only screen and (min-width: 670px) {
+  
+  #kanye-quote {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 5vw;
+  }
+  
+  
+  #kanye-head {
+    width: 50%;
+    margin: 10vw 0vw 0vw 0vw;
+  }
+
+
+  #click {
+    margin-bottom: 5vw;
+    font-size: 20px;
+  }
+
+
+  #refresh {
+      border: 1px solid #d1ccb0;
+      box-shadow: 2px 4px 3px #928b61;
+      padding: 10px;
+      align-items: center;
+      justify-items: center;
+      cursor: pointer;
+  }
+}
